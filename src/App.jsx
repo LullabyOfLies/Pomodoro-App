@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGear } from '@fortawesome/free-solid-svg-icons'
 import { faUndo } from '@fortawesome/free-solid-svg-icons';
 import Modal from './Modal';
+import GirlWaiting from '..//src//assets//bg-images//girlwaiting.gif'
+import CampFire from '..//src//assets//bg-images//campfire.gif'
+import Raining from '..//src//assets//bg-images//raining.gif'
+import Empire from '..//src//assets//bg-images//empirestatetower.png'
 
 const CountdownTimer = () => {
   const timerRef = useRef(null);
@@ -72,19 +76,19 @@ const CountdownTimer = () => {
   }, [countDown]);
 
   const changeBg1 = () =>{
-   document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//girlwaiting.gif`}')`;
+   document.body.style.backgroundImage = `url('${GirlWaiting}')`;
   };
 
   const changeBg2 = () =>{
-    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//campfire.gif`}')`;
+    document.body.style.backgroundImage = `url('${CampFire}')`;
   };
 
   const changeBg3 = () =>{
-    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//raining.gif`}')`;
+    document.body.style.backgroundImage = `url('${Raining}')`;
   };
 
   const changeBg4 = () =>{
-    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//empirestatetower.png`}')`;
+    document.body.style.backgroundImage = `url('${Empire}')`;
   };
 
   const handleOnSave = (bg) =>{
