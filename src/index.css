@@ -34,7 +34,7 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/bg-images/girlwaiting.gif");
+  background-image: url(".//assets//bg-images//girlwaiting.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

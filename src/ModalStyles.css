@@ -86,7 +86,7 @@
        left: 0;
        right: 0;
        background-color: rgba(0, 0, 0, .7);
-       z-Index: 1000;
+       z-index: 1000;
      }
 
 .MODAL-CONTAINER{
