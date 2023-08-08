@@ -72,19 +72,19 @@ const CountdownTimer = () => {
   }, [countDown]);
 
   const changeBg1 = () =>{
-   document.body.style.backgroundImage = `url('${`./src/assets/bg-images/girlwaiting.gif`}')`;
+   document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//girlwaiting.gif`}')`;
   };
 
   const changeBg2 = () =>{
-    document.body.style.backgroundImage = `url('${`./src/assets/bg-images/campfire.gif`}')`;
+    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//campfire.gif`}')`;
   };
 
   const changeBg3 = () =>{
-    document.body.style.backgroundImage = `url('${`./src/assets/bg-images/raining.gif`}')`;
+    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//raining.gif`}')`;
   };
 
   const changeBg4 = () =>{
-    document.body.style.backgroundImage = `url('${`./src/assets/bg-images/empirestatetower.png`}')`;
+    document.body.style.backgroundImage = `url('${`.//src//assets//bg-images//empirestatetower.png`}')`;
   };
 
   const handleOnSave = (bg) =>{
