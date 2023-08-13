@@ -123,7 +123,7 @@ const CountdownTimer = () => {
       changeBg3()
     }
     else{
-      changeBg4();
+      // changeBg4();
     }
     
   };
@@ -134,9 +134,9 @@ const CountdownTimer = () => {
       <Modal open={isOpen} onClose={()=> setIsOpen(false)} onSave={handleOnSave}></Modal>
       <div className="timerContainer">
         <div className="durations">
-        <button className="pomodoro-btn" onClick={pomo}>Pomodoro</button>
-        <button className="shortBreak-btn" onClick={shortBreak}>Short Break</button>
-        <button className="longBreak-btn" onClick={longBreak}>Long Break</button>
+          <button className="pomodoro-btn" onClick={pomo}>Pomodoro</button>
+          <button className="shortBreak-btn" onClick={shortBreak}>Short Break</button>
+          <button className="longBreak-btn" onClick={longBreak}>Long Break</button>
         </div>
         <audio id="alarmSound" src="..//src//assets//alarm-sounds//alarm.mp3"></audio>
         <h1 className="analogTimer"  ref={timerRef}>25:00</h1>

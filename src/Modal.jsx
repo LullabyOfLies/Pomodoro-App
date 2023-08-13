@@ -68,8 +68,8 @@ export default function Modal({open, children, onClose, onSave}) {
         <div className="MODAL_GENERAL_TAB">
           <label>Select theme:</label>
           <div className="select-wrapper">
-            <select id="themeSelect" onChange={handleOption}>
-              <option id="selections" value="" onClick={handleOptionSave(0)}>Select Background</option>
+            <select id="themeSelect" onChange={handleOption} placeholder="Select Background">
+              {/* <option id="selections" value="" onClick={handleOptionSave(0)}>Select Background</option> */}
               <option id="selections" value="trainstation" onClick={handleOptionSave(1)}>Night City</option>
               <option id="selections" value="campfire" onClick={handleOptionSave(2)}>City Moon</option>
               <option  id="selections"  value="raining" onClick={handleOptionSave(3)}>Lunar</option>

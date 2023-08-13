@@ -1,8 +1,13 @@
-# React + Vite
+# SIMPLE POMODORO APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>CURRENT FEATURES:
+>>Timer countdown
+>>Timer Alarm when timer reaches '00:00'
+>>Timer Reset Buttons
+>>Background Selection
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>FEATURES TO ADD:
+>>SPOTIFY API 
+>>AUTO SELECT OF POMODORO BUTTON UPON CHECKING
+>>ALARM SOUND SELECTION
+>>RETENTION OF SELECTED ALARM AND BACKGROUND
