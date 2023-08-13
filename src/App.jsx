@@ -49,7 +49,7 @@ const CountdownTimer = () => {
   
 
   const shortBreak = () =>{
-    setCountDown(5);
+    setCountDown(300);
     setResetTimer(2);
     setStarted(false);
     console.log(countDown);
