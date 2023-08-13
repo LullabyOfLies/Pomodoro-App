@@ -6,15 +6,11 @@ import './ModalStyles.css'
 
 export default function Modal({open, children, onClose, onSave}) {
   const [imgCounter, setImgCounter] = useState('trainstation')
- 
-
 
   const handleOption = () =>{
     const optionSelect = document.getElementById('themeSelect').value;
     setImgCounter(optionSelect);
   };
-
-  console.log(imgCounter);
 
   // const forCampFire = () =>{
   //   document.body.style.backgroundImage = "url('campfire.gif'')"; 
@@ -33,21 +29,19 @@ export default function Modal({open, children, onClose, onSave}) {
     let bg = bg1;
       if(imgCounter == 'trainstation'){
         bg = 1;
-        console.log("change to campfire gif");
+        // console.log("change to campfire gif");
       }else if(imgCounter == 'campfire'){
         console.log("here")
         bg = 2;
-        console.log("change to trainstation");
+        // console.log("change to trainstation");
       }else if(imgCounter == 'raining'){
         bg = 3;
-        console.log("change to rain");
+        // console.log("change to rain");
       }else if(imgCounter == 'empirestatetower'){
         bg = 4;
-        console.log("change to empirestatetower");
+        // console.log("change to empirestatetower");
       }
-      else{
-        alert("Please choose a background Image");
-      }
+      
       onSave(bg);
       
   };
@@ -73,13 +67,15 @@ export default function Modal({open, children, onClose, onSave}) {
         </div>
         <div className="MODAL_GENERAL_TAB">
           <label>Select theme:</label>
+          <div className="select-wrapper">
             <select id="themeSelect" onChange={handleOption}>
-              <option value="" onClick={handleOptionSave(0)}>Please select a background</option>
-              <option value="trainstation" onClick={handleOptionSave(1)}>Train Station</option>
-              <option value="campfire" onClick={handleOptionSave(2)}>Campfire</option>
-              <option value="raining" onClick={handleOptionSave(3)}>Raining</option>
-              <option value="empirestatetower" onClick={handleOptionSave(4)}>Empire State Tower</option>
+              <option id="selections" value="" onClick={handleOptionSave(0)}>Select Background</option>
+              <option id="selections" value="trainstation" onClick={handleOptionSave(1)}>Night City</option>
+              <option id="selections" value="campfire" onClick={handleOptionSave(2)}>City Moon</option>
+              <option  id="selections"  value="raining" onClick={handleOptionSave(3)}>Lunar</option>
+              <option  id="selections"  value="empirestatetower" onClick={handleOptionSave(4)}>Empire State</option>
           </select>
+          </div>
           {/* <button onClick={handleOptionSave}>Save</button> */}
         <p>Have feature requests, or an issue to report? Fill out our quick feedback form here and join our Discord Community.</p>
         <p>Pomodoorz is not related to the Pomodoro Technique™ trademark holder Cirillo Company and respects its trademarks. Pomodoro Technique® and Pomodoro® are registered trademarks of Francesco Cirillo.</p>
