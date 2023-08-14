@@ -11,7 +11,7 @@
 
 ![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/c531e3d8-2fd5-4b95-8a81-a1f38ab5424c)
 
-## MOBILE VERSIONS
+# MOBILE VERSIONS
 ![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/b51079b4-1029-45cc-ab0f-c03bd853a886)
 ![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/e0f5499e-0bf9-41d6-9005-e9b90ac5e3d8)
 ![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/bcfc315f-b66d-4652-afb1-4a81c69aa1f7)
