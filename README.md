@@ -1,4 +1,4 @@
-![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/69586745-efe7-4ab9-ba27-3e12eb634014)# SIMPLE POMODORO APP
+# SIMPLE POMODORO APP
 
 ## DESKTOP VERSION
 ![image](https://github.com/LullabyOfLies/Pomodoro-App/assets/92638123/9f023f07-c592-46a1-91a9-9069be72f115)
